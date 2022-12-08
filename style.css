@@ -1,0 +1,93 @@
+body {
+  background-color: #c98ca7;
+  font-family: 'Solway', serif;
+  font-size: 19px;
+  color: black;
+  text-align: center;
+  line-height: 115%;
+  }
+  .container {
+    width: 500px;   /* This sets the width */
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+h1{
+  font-size: 36px;
+  font-weight: 800;
+}
+
+h2{
+  font-size: 36px;
+}
+.card-top {
+  background: #e2d1ca;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  border-radius: 50px;
+}
+.card-bottom {
+  background: #e2d1ca;
+  padding: 20px;
+  margin-bottom: 200px;
+  border-radius: 50px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(255, 255, 255)
+}
+
+.list {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.list i{
+  font-size: 32px;
+  filter: drop-shadow(5px 5px 10px #ae7991);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  h1{
+    font-size: 24px;
+  }
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
